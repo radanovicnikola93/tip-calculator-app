@@ -23,3 +23,17 @@ body {
     font-family: 'Space Mono', monospace;
     background-color: var(--light-grayish-cyan);
 }
+
+/* CONTAINER */
+.container {
+    height: 100vh;
+
+    /* grid */
+    display: grid;
+    grid-template-areas: 
+    "logo"
+    "main"
+    ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+}
