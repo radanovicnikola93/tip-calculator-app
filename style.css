@@ -37,3 +37,13 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
 }
+
+/* HEADER */
+header {
+    grid-area: logo;
+}
+
+/* MAIN */
+main {
+    grid-area: main;
+}
