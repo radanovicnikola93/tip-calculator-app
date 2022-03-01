@@ -23,46 +23,43 @@
 
         <!-- CALCULATOR -->
         <div class="tip__calculator">
-            <div class="tip__calculator--input">
-              <!-- input -->
-              <div class="input__header">
-                <p class="tip--header">Bill</p>
-                <div class="calculator--input">
-                  <img src="./images/icon-dollar.svg" alt="dollar">
-                  <input id="bill-total" type="number" placeholder="0">
-                </div>
+          <!-- bill -->
+          <div class="tip__calculator--bill">
+            <div class="input__header">
+              <p class="tip--header">Bill</p>
+              <div class="calculator--input">
+                <img src="./images/icon-dollar.svg" alt="dollar">
+                <input id="bill-total" type="number" placeholder="0">
               </div>
             </div>
+          </div>
 
-            <!-- tip -->
-            <div class="tip__calculator--bill">
-              <div class="bill__header">
-                <p class="tip--header">Select Tip %</p>
-              </div>
-
-              <div class="tip__tip-percentage">
-                <button class="btn-percentage">5%</button>
-                <button class="btn-percentage">10%</button>
-                <button class="btn-percentage">15%</button>
-                <button class="btn-percentage">25%</button>
-                <button class="btn-percentage">50%</button>
-                <button>Custom</button>
-              </div>
+          <!-- tip -->
+          <div class="tip__calculator--tip">
+            <div class="bill__header">
+              <p class="tip--header">Select Tip %</p>
             </div>
 
-            <!-- people -->
-            <div class="tip__calculator--people">
-              <div class="people__header">
-                <p class="tip--header">Number of People</p>
-              </div>
+            <div class="tip__tip-percentage">
+              <button class="btn-percentage">5%</button>
+              <button class="btn-percentage">10%</button>
+              <button class="btn-percentage">15%</button>
+              <button class="btn-percentage">25%</button>
+              <button class="btn-percentage">50%</button>
+              <input type="number" placeholder="Custom">
+            </div>
+          </div>
 
-              <div class="people__input">
-                <div class="calculator--input">
-                  <img src="./images/icon-person.svg" alt="people">
-                  <input id="total-input" type="number" placeholder="0">
-                </div>
+          <!-- people -->
+          <div class="tip__calculator--people">
+            <div class="input__header">
+              <p class="tip--header">Number of People</p>
+              <div class="calculator--input">
+                <img src="./images/icon-person.svg" alt="people">
+                <input id="person-total" type="number" placeholder="0">
               </div>
             </div>
+          </div>
         </div>
 
         <!-- RESULT -->
