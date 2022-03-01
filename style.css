@@ -115,6 +115,23 @@ main {
     font-weight: 700;
 }
 
+.tip__tip-percantage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn-percentage {
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    border: none;
+    border-radius: 0.5rem;
+    width: 48%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
 
 
 /* TIP RESULT */
