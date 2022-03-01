@@ -57,3 +57,12 @@ main {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
+
+.tip__container {
+    height: 100%;
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
