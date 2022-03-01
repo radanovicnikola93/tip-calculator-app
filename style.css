@@ -50,4 +50,10 @@ header {
 /* MAIN */
 main {
     grid-area: main;
+
+    background-color: var(--white);
+    padding: 3rem;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
