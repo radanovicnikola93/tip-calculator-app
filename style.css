@@ -58,6 +58,7 @@ main {
     border-top-right-radius: 2rem;
 }
 
+/* TIP CONTAINER */
 .tip__container {
     height: 100%;
 
@@ -67,12 +68,18 @@ main {
     justify-content: space-between;
 }
 
+/* TIP CALCULATOR */
 .tip__calculator {
     flex-basis: 70%;
+    padding-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+/* TIP RESULT */
 .tip__result {
     background-color: var(--very-dark-cyan);
     flex-basis: 30%;
-
 }
