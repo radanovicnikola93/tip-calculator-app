@@ -11,6 +11,88 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="container">
+    <!-- LOGO -->
+    <header>
+      <img src="./images/logo.svg" alt="logo">
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <div class="tip__container">
+
+        <!-- CALCULATOR -->
+        <div class="tip__calculator">
+            <div class="tip__calculator--input">
+              <!-- input -->
+              <div class="input__header">
+                <p class="tip--header">Bill</p>
+                <input type="number" placeholder="0">
+              </div>
+            </div>
+
+            <!-- tip -->
+            <div class="tip__calculator--bill">
+              <div class="bill__header">
+                <p class="tip--header">Select tip %</p>
+              </div>
+
+              <div class="tip__tip-percentage">
+                <button class="btn-percentage">5%</button>
+                <button class="btn-percentage">10%</button>
+                <button class="btn-percentage">15%</button>
+                <button class="btn-percentage">25%</button>
+                <button class="btn-percentage">50%</button>
+                <button>Custom</button>
+              </div>
+            </div>
+
+            <!-- people -->
+            <div class="tip__calculator--people">
+              <div class="people__header">
+                <p class="tip--header">Number of People</p>
+              </div>
+
+              <div class="people__input">
+                <input type="number" placeholder="0">
+              </div>
+            </div>
+        </div>
+
+        <!-- RESULT -->
+        <div class="tip__result">
+          <div class="tip__result--amount result-container">
+            <div class="result-container--left">
+              <div><p>Tip Amount</p></div>
+              <div>/ person</div>
+            </div>
+            <div class="result-container--right">
+              <div>
+                <p>$ <span id="tip-amount">4.27</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tip__result--total result-container">
+            <div class="result-container--left">
+              <div><p>Total</p></div>
+              <div>/ person</div>
+            </div>
+            <div class="result-container--right">
+              <div>
+                <p>$ <span id="total-amount">32.79</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tip__result--reset">
+            <button type="reset">reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
 
   Bill
 
@@ -24,8 +106,7 @@
 
   Number of People
 
-  Tip Amount
-  / person
+  
 
   Total
   / person
