@@ -66,3 +66,13 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.tip__calculator {
+    flex-basis: 70%;
+}
+
+.tip__result {
+    background-color: var(--very-dark-cyan);
+    flex-basis: 30%;
+
+}
