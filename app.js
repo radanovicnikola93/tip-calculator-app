@@ -9,19 +9,28 @@ const resetBtn = document.getElementById("reset-all-btn");
 // transfor node to array
 const btnarray = [...tipBtnAll];
 
+// BILL INPUT
 // grab people input number value
-billInput.onkeyup = function() {
-    return billInput.value
+billInput.addEventListener('keyup', getBillValue)
+
+function getBillValue(e) {
+    return e.target.value;
 }
 
+// PEOPLE INPUT
 // grab people input number value
-peopleInput.onkeyup = function() {
-    return peopleInput.value
-};
+peopleInput.addEventListener('keyup', getPeopleValue);
 
+function getPeopleValue(e) {
+    return e.target.value;
+}
+
+// BUTTON PERCENTAGE
 // grab btn value
 btnarray.map(btn => {
-    btn.addEventListener('click', (e) => {
-        return e.target.value
-    })
+    btn.addEventListener('click', getButtonValue);
 })
+
+function getButtonValue(e) {
+    return e.target.value;
+}
