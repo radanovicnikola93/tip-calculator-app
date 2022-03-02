@@ -233,14 +233,15 @@ main {
 @media (min-width: 1000px) {
     /* container */
     .container {
-        min-height: auto;
+
+        min-height: 100vh;
         grid-template-areas: 
             ". logo ."
             ". main ."
             ". . ."
         ;
         grid-template-columns: 1fr 6fr 1fr;
-        grid-template-rows: 2fr 6fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
     }
 
     .tip__container {
