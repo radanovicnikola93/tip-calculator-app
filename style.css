@@ -182,7 +182,18 @@ main {
     justify-content: space-between;
 }
 
-.tip__result > * {
+.tip__result:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tip__result:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-container {
     display: flex;
     justify-content: space-between;
 }
