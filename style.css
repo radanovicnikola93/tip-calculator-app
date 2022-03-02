@@ -229,6 +229,6 @@ main {
             ". . ."
         ;
         grid-template-columns: 1fr 6fr 1fr;
-        grid-template-rows: 1fr 6fr 1fr;
+        grid-template-rows: 2fr 6fr 1fr;
     }
 }
