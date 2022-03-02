@@ -164,4 +164,52 @@ main {
 .tip__result {
     background-color: var(--very-dark-cyan);
     flex-basis: 30%;
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.tip__result > * {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-specifier {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.result-person {
+    color: var(--dark-grayish-cyan);
+    font-size: 0.9rem;
+}
+
+.result-header {
+    color: var(--strong-cyan);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.tip__result--reset {
+    width: 100%;
+}
+
+.tip__result--reset button {
+    width: 100%;
+    background-color: var(--strong-cyan);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
