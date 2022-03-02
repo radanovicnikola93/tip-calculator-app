@@ -91,6 +91,18 @@ main {
     position: relative;
 }
 
+/* Chrome, Safari, Edge, Opera */
+.calculator--input input::-webkit-outer-spin-button,
+.calculator--input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.calculator--input input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .calculator--input img {
     position: absolute;
     left: 1rem;
@@ -184,6 +196,18 @@ main {
     left: 50%;
     top: 25%;
     transform: translateX(-50%);
+}
+
+/* Chrome, Safari, Edge, Opera */
+#input-percentage::-webkit-outer-spin-button,
+#input-percentage::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#input-percentage[type='number'] {
+  -moz-appearance: textfield;
 }
 
 
