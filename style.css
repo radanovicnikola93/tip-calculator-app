@@ -140,7 +140,6 @@ main {
     height: 3rem;
 }
 
-
 .btn-percentage {
     background-color: var(--very-dark-cyan);
     color: var(--white);
@@ -161,12 +160,18 @@ main {
 
 #input-percentage {
     border: none;
+    border-radius: 0.2rem;
     direction: rtl;
+    padding-right: 1rem;
     position: relative;
     color: var(--dark-grayish-cyan);
 
     font-weight: 700;
     opacity: 0.9;
+}
+
+#input-percentage:focus {
+    outline: 1px solid var(--strong-cyan);
 }
 
 #input-percentage::placeholder {
@@ -176,9 +181,9 @@ main {
     opacity: 0.9;
 
     position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
 }
 
 
