@@ -149,6 +149,12 @@ main {
     cursor: pointer;
 }
 
+.btn-percentage:hover,
+.btn-percentage:active {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+}
+
 #input-percentage {
     border: none;
     direction: rtl;
