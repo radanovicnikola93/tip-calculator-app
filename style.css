@@ -242,4 +242,17 @@ main {
         grid-template-columns: 1fr 6fr 1fr;
         grid-template-rows: 2fr 6fr 1fr;
     }
+
+    .tip__container {
+        flex-direction: row;
+    }
+
+    .tip__calculator {
+        flex-basis: 100%;
+        padding-bottom: 0;
+    }
+
+    .tip__result {
+        flex-basis: 100%;
+    }
 }
