@@ -141,6 +141,24 @@ main {
     cursor: pointer;
 }
 
+#input-percentage {
+    border: none;
+
+    position: relative;
+}
+
+#input-percentage::placeholder {
+    color: var(--dark-grayish-cyan);
+    font-size: 1.4rem;
+    font-weight: 700;
+    opacity: 0.9;
+
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 /* TIP RESULT */
 .tip__result {
