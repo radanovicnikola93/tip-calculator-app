@@ -102,6 +102,13 @@ main {
 .calculator--input input {
     width: 100%;
     border: none;
+
+    direction: rtl;
+    color: var(--very-dark-cyan);
+    font-size: 1.4rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    padding-right: 1rem;
 }
 
 .calculator--input input::placeholder {
@@ -143,8 +150,12 @@ main {
 
 #input-percentage {
     border: none;
-
+    direction: rtl;
     position: relative;
+    color: var(--dark-grayish-cyan);
+
+    font-weight: 700;
+    opacity: 0.9;
 }
 
 #input-percentage::placeholder {
