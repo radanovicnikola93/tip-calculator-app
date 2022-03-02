@@ -263,5 +263,6 @@ main {
 
     .tip__result {
         flex-basis: 100%;
+        border-radius: 1rem;
     }
 }
