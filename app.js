@@ -14,7 +14,7 @@ const btnarray = [...tipBtnAll];
 billInput.addEventListener('keyup', getBillValue)
 
 function getBillValue(e) {
-    return e.target.value;
+    console.log( e.target.value);
 }
 
 // PEOPLE INPUT
@@ -22,7 +22,7 @@ function getBillValue(e) {
 peopleInput.addEventListener('keyup', getPeopleValue);
 
 function getPeopleValue(e) {
-    return e.target.value;
+    console.log( e.target.value);
 }
 
 // BUTTON PERCENTAGE
@@ -32,5 +32,10 @@ btnarray.map(btn => {
 })
 
 function getButtonValue(e) {
-    return e.target.value;
+    console.log( e.target.value);
 }
+
+/* 
+TODO
+calculate tip amount and total
+ */
