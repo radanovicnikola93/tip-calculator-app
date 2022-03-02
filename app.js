@@ -13,16 +13,17 @@ const btnarray = [...tipBtnAll];
 // grab people input number value
 billInput.addEventListener('keyup', getBillValue)
 
+
 function getBillValue(e) {
-    console.log( e.target.value);
+    // tipResult.textContent = e.target.value;
 }
 
-// PEOPLE INPUT
-// grab people input number value
-peopleInput.addEventListener('keyup', getPeopleValue);
+  // PEOPLE INPUT
+  // grab people input number value
+  peopleInput.addEventListener("keyup", getPeopleValue);
 
 function getPeopleValue(e) {
-    console.log( e.target.value);
+    return e.target.value;
 }
 
 // BUTTON PERCENTAGE
@@ -32,8 +33,9 @@ btnarray.map(btn => {
 })
 
 function getButtonValue(e) {
-    console.log( e.target.value);
+    return e.target.value;
 }
+
 
 /* 
 TODO
