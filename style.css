@@ -100,15 +100,19 @@ main {
 }
 
 .calculator--input input {
-    width: 100%;
+    width: 95%;
     border: none;
-
+    border-radius: 0.2rem;
     direction: rtl;
     color: var(--very-dark-cyan);
     font-size: 1.4rem;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     padding-right: 1rem;
+}
+
+.calculator--input input:focus {
+    outline: 1px solid var(--strong-cyan);
 }
 
 .calculator--input input::placeholder {
