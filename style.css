@@ -82,6 +82,7 @@ main {
     color: var(--very-dark-cyan);
 }
 
+/* calculator input */
 .calculator--input {
     /* flex */
     display: flex;
@@ -115,22 +116,29 @@ main {
     font-weight: 700;
 }
 
-.tip__tip-percantage {
+/* tip percentage */
+.tip__tip-percentage {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1em;
 }
+
+.tip__tip-percentage > * {
+    flex: 0 1 45%;
+    height: 3rem;
+}
+
 
 .btn-percentage {
     background-color: var(--very-dark-cyan);
     color: var(--white);
     border: none;
     border-radius: 0.5rem;
-    width: 48%;
-    height: 3rem;
     font-size: 1.3rem;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
+
+    cursor: pointer;
 }
 
 
