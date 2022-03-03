@@ -11,24 +11,31 @@ const btnarray = [...tipBtnAll];
 
 // BUTTON PERCENTAGE
 // grab btn value
-btnarray.map((btn) => {
-  btn.addEventListener("click", getButtonValue);
-});
+const parent = document.querySelector("#tip__tip-percentage");
+// parent.addEventListener('click', doSomething, false);
 
-function getButtonValue(e) {
-  return e.target.value;
-}
+// function doSomething(e) {
+//     // if e.target does not equal to parent target
+//     if (e.target !== e.currentTarget) {
+//         var clickedItem = e.target.value;
+//         console.log(clickedItem)
+//     }
+//     e.stopPropagation();
+// }
 
 peopleInput.addEventListener("blur", calculate);
 
 function calculate() {
-  let bill = parseFloat(billInput.value); // bill
-  let tipCustom = bill * parseFloat(`0.${inputPercentage.value}`);
-  let people = parseInt(peopleInput.value); // people
+    // get values
+    let bill = parseFloat(billInput.value); // bill
+    let tipCustom = bill * parseFloat(`0.${inputPercentage.value}`);
+    let people = parseInt(peopleInput.value); // people
 
-  let tipAmountPerPerson = tipCustom / people;
-  let totalPerPerson = (bill + tipCustom) / people;
-  // calculate
-  tipResult.textContent = tipAmountPerPerson.toFixed(2);
-  tipTotal.textContent = totalPerPerson.toFixed(2);
+    // calculate
+    let tipAmountPerPerson = tipCustom / people;
+    let totalPerPerson = (bill + tipCustom) / people;
+
+    // display results
+    tipResult.textContent = tipAmountPerPerson.toFixed(2);
+    tipTotal.textContent = totalPerPerson.toFixed(2);
 }
