@@ -295,6 +295,7 @@ main {
 
     .tip__container {
         flex-direction: row;
+        gap: 2rem;
     }
 
     .tip__calculator {
